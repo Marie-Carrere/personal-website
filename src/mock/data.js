@@ -17,10 +17,12 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'profile-image.png',
+  paragraphOne: 'Creative and proactive full stack developer with a focus on the front-end.',
+  paragraphTwo:
+    'I thrive to better the lives of all users throughout the use of technology innovation in an Agile environment. I am always looking for ways to grow as a developer and use my skills to positively impact others.',
+  paragraphThree:
+    'Being a big proponent of the JAMstack I preferably work with React JS and Gatsby JS, accompanied by a serverless architecture.',
   resume: 'https://www.linkedin.com/in/marie-carrere',
 };
 
