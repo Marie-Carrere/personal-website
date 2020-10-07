@@ -11,14 +11,14 @@ export const headData = {
 export const heroData = {
   title: 'Hello! My name is',
   name: 'Marie',
-  subtitle: 'I am a web developer working at Zenika',
+  subtitle: 'I am a Web Developer based in Paris 🇫🇷',
   cta: 'Who Am I?',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile-image.png',
-  paragraphOne: 'Creative and proactive full stack developer with a focus on the front-end.',
+  paragraphOne: 'Creative and proactive Web Developer with a focus on the front-end.',
   paragraphTwo:
     'I thrive to better the lives of all users throughout the use of technology innovation in an Agile environment. I am always looking for ways to grow as a developer and use my skills to positively impact others.',
   paragraphThree:
@@ -30,30 +30,22 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'laptop-screen.jpg',
+    title: 'Consultant at Zenika',
+    info:
+      "I build robust and scalable front-end solutions using JS/TS/React. I work directly with the Marketing and UX/UI teams to understand end-user requirements and use cases. I translate design work into clean and performant front-end code, producing interfaces that strictly conform to mockups. I follow and maintain front-end coding conventions and documentation standards. I maintain and improve applications' quality via clear, thorough, easy-to-follow testing steps",
+    info2: 'Coding is an outlet for my creativity and seek to be constantly challenged',
+    url: 'https://zenika.com/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'react-ecosystem.png',
+    title: 'Proficient In',
+    info: 'React - JavaScript - TypeScript - GraphQL - Git - Agile methodologies',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://github.com/Marie-Carrere',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
