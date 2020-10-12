@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Marie Carrere | Developer',
+  title: 'Marie Carrere | Web Developer',
   lang: 'en, fr',
   description: 'Welcome to my website',
 };
@@ -34,9 +34,9 @@ export const projectsData = [
     title: 'Consultant at Zenika',
     info:
       "I build robust and scalable front-end solutions using JS/TS/React. I work directly with the Marketing and UX/UI teams to understand end-user requirements and use cases. I translate design work into clean and performant front-end code, producing interfaces that strictly conform to mockups. I follow and maintain front-end coding conventions and documentation standards. I maintain and improve applications' quality via clear, thorough, easy-to-follow testing steps",
-    info2: 'Coding is an outlet for my creativity and seek to be constantly challenged',
+    info2: 'Coding is an outlet for my creativity and I seek to be constantly challenged',
     url: 'https://zenika.com/',
-    repo: '', // if no repo, the button will not show up
+    repo: '',
   },
   {
     id: nanoid(),
@@ -45,7 +45,7 @@ export const projectsData = [
     info: 'React - JavaScript - TypeScript - GraphQL - Git - Agile methodologies',
     info2: '',
     url: 'https://github.com/Marie-Carrere',
-    repo: '', // if no repo, the button will not show up
+    repo: '',
   },
 ];
 
@@ -63,11 +63,6 @@ export const footerData = {
       id: nanoid(),
       name: 'twitter',
       url: 'https://twitter.com/carrere_marie',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
     },
     {
       id: nanoid(),
